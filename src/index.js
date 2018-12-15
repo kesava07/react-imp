@@ -8,4 +8,4 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import App from '../src/App';
 import '../src/styles/index.scss';
 
-ReactDOM.render(<App/>,document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));

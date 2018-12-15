@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom'
 const Header =()=>(
     <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
-  <a className="navbar-brand" href="#">Navbar</a>
+        <NavLink to="/" className="navbar-brand"><i className="fa fa-leaf text-success fa-1x"></i></NavLink>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -21,7 +21,7 @@ const Header =()=>(
           Dropdown
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="#">Action</a>
+          <a className="dropdown-item" href="#">To do Saver</a>
           <a className="dropdown-item" href="#">Another action</a>
         </div>
       </li>
